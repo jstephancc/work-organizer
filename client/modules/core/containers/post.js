@@ -17,7 +17,16 @@ export const composer = ({context, postId}, onData) => {
   }
 };
 
+
+export const depsMapper = (context, actions) => ({
+  remove: actions.posts.remove,
+  done: actions.posts.done,
+  context: () => context
+});
+
 export default composeAll(
   composeWithTracker(composer),
-  useDeps()
+  useDeps(depsMapper)
 )(Post);
+
+

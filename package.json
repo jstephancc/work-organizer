@@ -31,8 +31,13 @@
   },
   "dependencies": {
     "domready": "^1.0.8",
+    "humanize-duration": "^3.9.1",
+    "is-property": "^1.0.2",
     "mantra-core": "^1.7.0",
+    "rc-swipeout": "^1.1.5",
     "react": "^15.0.0",
+    "react-addons-pure-render-mixin": "^15.3.1",
+    "react-datepicker": "^0.29.0",
     "react-dom": "^15.0.0",
     "react-mounter": "^1.2.0"
   },
